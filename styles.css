@@ -1,0 +1,167 @@
+.logo{
+    width: fit-content;
+    object-fit: contain;
+    max-width: 100%;
+    
+    
+}
+.main-header{
+    background-color: #87423c;
+}
+.navigation{
+    background-color: #4d1d18;
+}
+.navigation a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+}
+.navigation a:hover{
+    color: #555;
+    background-color: white;
+}
+body{
+    background-color: rgb(206, 199, 199);
+    font-family: 'Helvetica', 'Calibri', monospace;
+    margin: 0;
+}
+.banner{
+    background-image: url("graphics/aaron-burden-cEukkv42O40-unsplash.jpg");
+    aspect-ratio: 16/5;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+
+}
+.banner{
+    font-size: 100%;
+    color: white;
+    text-shadow: black 2px 2px 1px;
+}
+
+.maps{
+    display: grid;
+    text-align: center;
+    place-items: center;
+    padding: 50px;   
+    border: 20px;
+}
+.video{
+    display: grid;
+    text-align: center;
+    place-items: center;
+
+}
+.social a{
+    text-decoration: none;
+    color: rgb(6, 193, 226);
+    font-size: 200%;
+    margin: 0 20px;
+}
+.social{
+    text-align: center;
+}
+.social a:hover {
+    color: yellow;
+
+}
+.content {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    /*margin-top: 30px;*/
+    margin: 30px;
+}
+.content.about {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    /*margin-top: 30px;*/
+    margin: 30px;    
+}
+.content h3{
+    color: palevioletred;
+    text-shadow: crimson;
+    font-size:200%;
+    font-weight:bold;
+    
+}
+
+.content.p{
+text-align: center;
+text-decoration: 150%;
+}
+.videomaps{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    /*margin-top: 30px;*/
+    margin: 30px;
+}
+.card img {
+    max-width: 100%;
+}
+.card-image{
+    aspect-ratio: 5/2;
+    overflow: hidden;
+}
+.banner.contact{
+    background-image: url("graphics/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg");
+}
+
+
+.content.contact {
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+#contact-form{
+    grid-column-start: 2;
+    background-color: rgb(228, 222, 222);
+    padding: 30px;
+    border-radius: 10px;
+}
+#contact-form > label{
+    display: block;
+    font-weight: bold;
+    text-align:left;
+
+}
+#contact-form > input,
+#contact-form > select,
+#contact-form > textarea
+{
+    min-width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 1px #cccccc;
+}
+#contact-form > input:focus,
+#contact-form > select:focus,
+#contact-form > textarea:focus
+{
+    outline: rgb(2, 129, 102) solid 1px;
+}
+
+.checkbox, .radio {
+    padding: 15px 0;
+}
+.card h3 {
+
+    color: #4d1d18;
+
+    font-size: 24px;
+    text-align: center;
+
+}
+.card p{
+    text-align:center;
+
+}
